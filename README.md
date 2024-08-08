@@ -12,6 +12,11 @@ The **Custom Table Component** is a versatile and high-performance solution for 
 - **Responsive Design:** Ensures consistent appearance and functionality across different device sizes.
 - **Performance Optimization:** Efficiently handles large datasets using lazy loading and virtualization techniques.
 
+## Key Features:
+- **Show/Hide Columns:** Use showCol: true/false to explicitly show or hide columns.
+- **Add Calculated Data:** Use compare: true for calculated data columns to enable sorting and filtering.
+- **Editable Rows:** Use editable: true for  editing the cell directly from the table.
+
 ## Use Case Example
 
 Here's an example of how to define columns and use the `CustomTable` component in a React application:
@@ -240,3 +245,28 @@ const ViewSalesAccountColumns = [
   pagination // pagination by default and and pass tha array of numbers to give the option to break down the data.
   tableName={"SalesAccountOverview"} // give the unique table name  its cumpoulsary  because it preserves the data like column position when drag and dropped and filters
 />
+```
+
+##Getting Started
+To use this component in your project, follow these steps:
+
+##Clone the Repository:
+```javascript
+git clone https://github.com/Pratyushg1312/Custom-React-Table.git
+cd custom-table-component
+Install Dependencies:
+```
+```javascript
+npm install
+Run the Example:
+```
+
+```javascript
+npm start
+```
+##Contributing
+
+##We welcome contributions to enhance this component! Feel free to open issues or submit pull requests with your improvements.
+
+##License
+This project is licensed under the MIT License.
